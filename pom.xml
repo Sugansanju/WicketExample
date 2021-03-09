@@ -1,0 +1,63 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.apache.wicket</groupId>
+    <artifactId>wicket-parent</artifactId>
+    <version>8.6.1</version>
+  </parent>
+  <groupId>org.exams</groupId>
+  <artifactId>project</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <dependencies>
+  
+  	<!-- https://mvnrepository.com/artifact/org.apache.wicket/wicket-core -->
+<dependency>
+  <groupId>org.apache.wicket</groupId>
+  <artifactId>wicket-core</artifactId>
+   </dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.wicket/wicket-extensions -->
+<dependency>
+    <groupId>org.apache.wicket</groupId>
+    <artifactId>wicket-extensions</artifactId>
+    </dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.wicket/wicket -->
+<dependency>
+    <groupId>org.apache.wicket</groupId>	
+    <artifactId>wicket</artifactId>
+    <type>pom</type>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.wicket/wicket-devutils -->
+<dependency>
+    <groupId>org.apache.wicket</groupId>
+    <artifactId>wicket-devutils</artifactId>
+    </dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.wicket/wicket-util -->
+<dependency>
+    <groupId>org.apache.wicket</groupId>
+    <artifactId>wicket-util</artifactId>
+    </dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.wicket/wicket-request -->
+<dependency>
+    <groupId>org.apache.wicket</groupId>
+    <artifactId>wicket-request</artifactId>
+    </dependency>
+
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    </dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    </dependency>
+<!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <scope>test</scope>
+</dependency>
+
+  </dependencies>
+</project>

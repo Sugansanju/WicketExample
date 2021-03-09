@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.apache.org">
+<head>
+<meta charset="UTF-8">
+<title>Example</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+</head>
+<body>
+<wicket:extend>
+   <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+          <div class="card-body">
+            <h5 class="card-title text-center">Sign Up</h5>
+            <form class="form-signin" wicket:id="signUpForm">
+              <div class="form-label-group">
+                <input type="text" id="contact" class="form-control" placeholder="Email/Mobile" wicket:id="contact" required autofocus>
+                <label for="contact">Email/Mobile</label>
+              </div>
+              <div class="form-label-group">
+                <input type="text" id="username" class="form-control" placeholder="UserName" wicket:id="username" required >
+                <label for="username">User Name</label>
+              </div>
+              <div class="form-label-group">
+                <input type="text" id="firstname" class="form-control" placeholder="Firstname" wicket:id="firstname" required>
+                <label for="firstname">Firstname</label>
+              </div>
+                <div class="form-label-group">
+                <input type="text" id="lastname" class="form-control" placeholder="Lastname" wicket:id="lastname" required>
+                <label for="lastname">Lastname</label>
+              </div>
+              <div class="text-center d-flex justify-content-center mt-5">
+           <button class="btn btn-lg btn-primary btn-block text-uppercase " type="submit">Sign Up</button>
+          </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</wicket:extend>
+</body>
+</html>
